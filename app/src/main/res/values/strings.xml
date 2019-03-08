@@ -6,13 +6,18 @@
     <string name="TMDB_Genres_List">/genre/movie/list</string>
     <string name="TMDB_popular_movies">/movie/popular</string>
     <string name="TMDB_top_rated_movies">/movie/top_rated</string>
+    <string name="TMDB_movie">/movie/</string>
+    <string name="TMDB_videos_and_reviews">videos,reviews</string>
 
     <string name="TMDB_API_Key">\?api_key\=</string>
 
     <!--API personal Keys here-->
     
     <string name="TMDB_page_number">&amp;page\=</string>
+    <string name="TMDB_append_to_response">&amp;append_to_response\=</string>
 
     <string name="base_image_url_w342">http://image.tmdb.org/t/p/w342/</string>
     <string name="base_image_url_w500">http://image.tmdb.org/t/p/w500/</string>
+    
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae ornare risus, et pulvinar diam.</string>
 </resources>

@@ -1,6 +1,7 @@
-package udacity.nsr.osama.movieapp
+package udacity.nsr.osama.movieapp.models
 
-data class MovieModel(val originalTitle: String,
+data class MovieModel(val _id: Int,
+                      val originalTitle: String,
                       val summary: String,
                       val poster: String,
                       val backdrop_path: String,

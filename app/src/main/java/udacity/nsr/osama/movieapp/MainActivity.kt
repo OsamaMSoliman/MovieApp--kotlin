@@ -2,12 +2,13 @@ package udacity.nsr.osama.movieapp
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.StaggeredGridLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.LinearLayout
 import kotlinx.android.synthetic.main.activity_main.*
+import udacity.nsr.osama.movieapp.models.MovieModel
+import udacity.nsr.osama.movieapp.online.FetchMoviesOnline
 
 
 class MainActivity : AppCompatActivity() {
